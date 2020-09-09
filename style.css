@@ -1,16 +1,35 @@
 .avatar {
     border-radius: 50%;
     height: 100px;
-    float:right;
+    float: right;
 }
 
 .astronaut {
-    border: 1px solid black;
+    margin: auto;
+    border: 1px solid grey;
     display: flex;
-    justify-content: space-between;
-    width: 500px;
+    justify-content: space-evenly;
+    width: 60%;
     align-items: center;
     padding: 5px;
     margin-bottom: 20px;
     border-radius: 6px;
+}
+
+#container {
+    margin: auto;
+    width: 80%;
+    border: 10px solid grey;
+    padding: 10px;
+}
+
+.center {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+h1 {
+    margin: auto;
+    width: 80%;
 }
